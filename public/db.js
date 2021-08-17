@@ -28,9 +28,11 @@ function checkDatabase() {
   let transaction = db.transaction(['BudgetStore'], 'readwrite');
 
   const store = transaction.objectStore('BudgetStore');
+
   const getAll = store.getAll();
 
   getAll.onsuccess = function () {
+   
     if (getAll.result.length > 0) {
       fetch('/api/transaction/bulk', {
         method: 'POST',
@@ -66,9 +68,10 @@ request.onsuccess = function (e) {
 const saveRecord = (record) => {
   console.log('Save record invoked');
   const transaction = db.transaction(['BudgetStore'], 'readwrite');
+
   const store = transaction.objectStore('BudgetStore');
+
   store.add(record);
 };
 
-// Listen for app coming back online
 window.addEventListener('online', checkDatabase);
