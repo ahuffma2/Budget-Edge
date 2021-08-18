@@ -16,7 +16,7 @@
   
   --------
   ## Usage
- Simply Fill in the corrosponding text fields with your category and how much, and specify if its an added fund or a subtracting fund, and the sit will do the rest and show you you're net.
+ Simply Fill in the corrosponding text fields with your category and the amount spent/earned, and specify if its an added fund or a subtracting fund, and the sit will do the rest and show you you're net.
 
     
 ![budget](https://user-images.githubusercontent.com/44355662/129819341-fa11dbfe-62a0-4908-b8ed-db45ba190155.JPG)
