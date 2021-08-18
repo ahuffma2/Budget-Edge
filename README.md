@@ -10,15 +10,16 @@
   
   * Clone this Repository using the green button in the top right. 
   * Using the terminal of choice type the comman ```npm i``` in the directory you cloned 
-  * Run ```Nodemon Server.js``` 
+  * Run ```Nodemon Server.js```
   
   And that's it you're good to go! Go to Localhost:3000 on your browser and and you're good! 
   
   --------
   ## Usage
-    Simply Fill in the corrosponding text fields with your category and how much, and specify if its an added fund or a subtracting fund, and the sit will do the rest and show you you're net.
+ Simply Fill in the corrosponding text fields with your category and how much, and specify if its an added fund or a subtracting fund, and the sit will do the rest and show you you're net.
+
     
-    
+![budget](https://user-images.githubusercontent.com/44355662/129819341-fa11dbfe-62a0-4908-b8ed-db45ba190155.JPG)
 
   
   ## Questions 
