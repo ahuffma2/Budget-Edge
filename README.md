@@ -9,7 +9,7 @@
   For Local 
   
   * Clone this Repository using the green button in the top right. 
-  * Using the terminal of choice type the comman ```npm i``` in the directory you cloned 
+  * Using the terminal of choice type the command ```npm i``` in the directory you cloned 
   * Run ```Nodemon Server.js```
   
   And that's it you're good to go! Go to Localhost:3000 on your browser and and you're good! 
