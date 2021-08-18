@@ -54,7 +54,7 @@ self.addEventListener("fetch", e => {
           })
           .catch(() => caches.match(e.request));
       })
-    );
+    )
     return;
   }
 
@@ -63,15 +63,13 @@ self.addEventListener("fetch", e => {
       if (cachedResponse) {
         return cachedResponse;
       }
-
-
       return caches.open(RUNTIME).then(cache => {
         return fetch(e.request).then(response => {
           return cache.put(e.request, response.clone()).then(() => {
             return response;
-          });
+          })
         });
-      });
+      })
     })
-  );
+  )
 });
